@@ -31,4 +31,25 @@ let weather = {
     document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
     document.querySelector(".wind").innerText = "Wind speed: " + speed + " km/h";
   }
-}
+  }
+
+// adding an event listeners for location buttons
+document.querySelector(".losAngeles").addEventListener("click", function() {
+  weather.fetchWeather("Los Angeles");
+})
+document.querySelector(".sanDiego").addEventListener("click", function() {
+  weather.fetchWeather("San Diego");
+})
+document.querySelector(".lasVegas").addEventListener("click", function() {
+  weather.fetchWeather("Las Vegas");
+})
+document.querySelector(".detroit").addEventListener("click", function() {
+  weather.fetchWeather("Detroit");
+})
+document.querySelector(".newYork").addEventListener("click", function() {
+  weather.fetchWeather("New York");
+})
+document.querySelector(".portland").addEventListener("click", function() {
+  weather.fetchWeather("Portland");
+})
+

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Basic Boilerplate html code -->
 <head>
     <meta charset="UTF-8" />
     <meta name"viewport" content="width=device-width, initial-scale=1.0">
@@ -9,58 +9,33 @@
 </head>
 
 <body>
+    <!-- Top Nav Bar displaying app name -->
     <div class="top">
         <div>Weather Dashboard</div> 
     </div>
-
+    <!-- Placeholder html to display main weather -->
     <div class="weather">
         <h2 class="city">Weather in Los Angeles</h2>
         <div class="temp">100°C</div>
-        <img src="" alt="" class="icon" />
         <div class="description">Sunny</div>
         <div class="humidity">Humidity: 10%</div>
         <div class="wind">Wind speed 5 km/h</div>
     </div>
-
+    <!-- Placeholer for search bar and submit button -->
     <form>
         <label for="search">Search for a City:</label><br>
         <input type="text" id="search"><br>
-        <input type="submit" value="Submit">
+        <input type="submit" class="submit">
     </form>
-
-    <button type="button">Los Angeles</button>
-    <button type="button">San Diego</button>
-    <button type="button">Las Vegas</button>
-    <button type="button">Litchfield</button>
-    <button type="button">New York</button>
-    <button type="button">Portland</button>
-
-
-
-
+    <!-- City Selection buttons to display weather on innerText -->
+    <button type="button" class="losAngeles">Los Angeles</button>
+    <button type="button" class="sanDiego">San Diego</button>
+    <button type="button" class="lasVegas">Las Vegas</button>
+    <button type="button" class="detroit">Detriot</button>
+    <button type="button" class="newYork">New York</button>
+    <button type="button" class="portland">Portland</button>
+<!-- linking the JavaScript to the HTML -->
 <script src="./assets/js/script.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
