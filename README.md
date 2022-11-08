@@ -9,10 +9,10 @@ The Weather Dashboard is an application that allows you to see the weather in th
 
 ## Screenshot
 
-![Weather Dashboard](./assets/images/Horiseon_Screenshot.jpeg)
+![Weather Dashboard](./assets/images/weather-dashboard.png)
 
 ## Live Weather Dashboard Link
-[Weather Dashboard](./assets/images/weather-dashboard.png)
+[Weather Dashboard](https://marvinjvelasco.github.io/Weather-Dashboard/)
 
 ## Edits
 * Added CSS for buttons and main weather display
